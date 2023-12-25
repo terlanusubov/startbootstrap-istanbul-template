@@ -1,0 +1,120 @@
+/* My defaults */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: menimfontum;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin:0 auto;
+}
+@font-face {
+    font-family: menimfontum;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* End my defaults */
+
+/* Start Header */
+#header{
+    height: 100px;
+    background-color: #2C3E4F;
+    padding:35px 0px;
+}
+/* Start Logo */
+.logo ,
+.navigation{
+    display: inline-block;
+}
+
+.logo{
+    width: 48%;
+}
+.logo a{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:white;
+}
+/* End Logo */
+
+/* Start Navigation */
+.navigation{
+    width: 50%;
+    vertical-align: top;
+}
+
+.navigation ul{
+    text-align: right;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin:0px 7px;
+    padding:0px 10px;
+    color:white;
+}
+.navigation ul li a:hover{
+    color:#1abc9c;
+}
+
+.navigation ul li:last-child a{
+   padding-right: 0px;
+   margin-right: 0px;
+}
+/* End Navigation */
+
+
+/* End Header */
+
+/* Start Banner */
+#banner{
+    background-color: #1abc9c;
+    text-align: center;
+    padding: 100px 0px;
+}
+#banner img{
+    width: 230px;
+}
+#banner h1{
+    text-transform: uppercase;
+    font-size: 4em;
+    color:white;
+    margin:25px 0px;
+}
+#banner p{
+    color:white;
+    font-size: 1.5em;
+}
+#banner .line-wrapper{
+    margin:25px 0px;
+}
+#banner svg{
+    color:white;
+    width: 40px;
+}
+#banner .line{
+    display: inline-block;
+    width: 125px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 12px;    
+}
+
+#portfolio, #about{
+    height: 400px;
+    background-color: red;
+    margin:40px 0px;
+}
